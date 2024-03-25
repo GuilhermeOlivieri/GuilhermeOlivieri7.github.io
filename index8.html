@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/css8.css">
+
+    <title>Cadastro</title>
+</head>
+<body>
+    
+<section class="container">
+    <header>Cadastro</header>
+    <form action="#" class="form">
+        <div class="input-box">
+            <label>Nome Completo</label>
+            <input type="text" placeholder="Digite seu nome completo" required />
+        </div>
+        <div class="input-box">
+            <label>Email </label>
+            <input type="text" placeholder="Digite seu e-mail" required />
+        </div>
+        <div class="column">
+            <div class="input-box">
+                <label>Número de telefone</label>
+                <input type="number" placeholder="Digite seu número de telefone" required />
+            </div>
+            <div class="input-box">
+                <label>Data de nascimento</label>
+                <input type="date" placeholder="Digite sua data de nascimento" required />
+            </div>
+        </div>
+        <div class="gender-box">
+            <h3>Sexo</h3>
+            <div class="gender-option">
+                <div class="gender">
+                    <input type="radio" id="check-male" name="gender" checked />
+                    <label for="check-male">Masculinmo</label>
+                </div>
+                <div class="gender">
+                    <input type="radio" id="check-female" name="gender" />
+                    <label for="check-female">Feminino</label>
+                </div>
+                <div class="gender">
+                    <input type="radio" id="check-other" name="gender" />
+                    <label for="check-other">Prefiro não dizer</label>
+                </div>
+            </div>
+        </div>
+        <div class="input-box address">
+            <label>Endereço</label>
+            <input type="text" placeholder="Digite seu endereço" required />
+            <input type="text" placeholder="Digite seu segundo endereço" required />
+            <div class="column">
+                <div class="select-box">
+                    <select>
+                        <option hidden>País</option>
+                        <option>Brasil</option>
+                        <option>Argentina</option>
+                        <option>Bolivia</option>
+                        <option>Equador</option>
+                    </select>
+                </div>
+                <input type="text" placeholder="Digite sua cidade" required />
+            </div>
+            <div class="column">
+                <input type="text" placeholder="Digite sua região" required />
+                <input type="number" placeholder="Digite seu CPF" required />
+            </div>
+        </div>
+        <button>Entrar</button>
+    </form>
+</section>
+</body>
